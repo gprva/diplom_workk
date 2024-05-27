@@ -1,0 +1,182 @@
+.home_main_tit{
+	font-size: 50px;
+	text-align: center;
+    color: #008ccf;
+    padding: 0.5em 0;
+    font-family: "Oswald", sans-serif;
+}
+.home_main_txt{
+	font-family: "Poetsen One", sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 1em 0;
+	text-align: center;	
+}
+.home_main{
+	background: url(../../img/home-fon.webp)no-repeat center;
+	filter: brightness(60%)
+}
+.hover_card{
+	padding: 100px 0;
+}
+
+.home_tit{
+    margin: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+}
+.font_bebas{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.selling_cardss,
+.selling_cards{
+    justify-content: normal;
+    flex-wrap: nowrap;
+}
+.selling_cardss{
+    margin-top: -5px;
+}
+.selling_min_txt{
+    color: white;
+    font-size: 20px;
+}
+
+/* Эффект при наведении */
+figure.effect-text-four figcaption {
+	text-align: right;
+}
+figure.effect-text-four h3,
+figure.effect-text-four p {
+	right: 30px;
+	left: 30px;
+	padding: 10px 0;
+}
+figure.effect-text-four p {
+	bottom: 30px;
+	line-height: 1.5;
+	-webkit-transform: translate3d(0,100%,0);
+	transform: translate3d(0,100%,0);
+}
+figure.effect-text-four h3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+	top: 30px;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,20px,0);
+	transform: translate3d(0,20px,0);
+}
+figure.effect-text-four:hover h3 {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+figure.effect-text-four h3::after {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 4px;
+	background: #fff;
+	content: '';
+	-webkit-transform: translate3d(0,40px,0);
+	transform: translate3d(0,40px,0);
+}
+figure.effect-text-four h3::after,
+figure.effect-text-four p {
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+figure.effect-text-four:hover h3::after,
+figure.effect-text-four:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.home_btn{
+    width: 20%;
+    background: #777676;
+    padding: 8px;
+    transition: 0.5s;
+    border-radius: 20%;
+}
+.home_btn:hover{
+    background: #919090;
+}
+.home_img2{
+    height: 308px;
+    width: 547px;
+}
+
+
+/*hover card*/
+.hover-effect-btn {
+	position: relative;
+	width: 100%;
+  }
+  .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5); /* Настройка цвета и прозрачности для блока с заголовком */
+	transition: background 0.5s ease;
+  }
+  .hover-effect-btn:hover .overlay {
+	display: block;
+	background: rgba(74, 73, 73, 0.9); /* Настройка цвета и прозрачности для блока с заголовком при наведении */
+  }
+  .title {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 25%; /* Отступ сверху */
+	font-size: 1.900em; /* Размер текста заголовка */
+	text-align: center;
+	text-transform: uppercase; /* Заглавные буквы */
+	color: white; /* Цвет заголовка */
+	z-index: 1;
+	transition: top .5s ease;
+  }
+  .hover-effect-btn:hover .title {
+	top: 10%; /* Отступ сверху при наведении */
+  }
+  .button {
+	position: absolute;
+	width: 100%;
+	left:0;
+	top: 65%; /* Отступ сверху */
+	text-align: center;
+	opacity: 0;
+	transition: opacity .35s ease;
+  }
+  .button a {
+	padding: 15px 40px; /* Отступ */
+	text-align: center;
+	background: #272727; /* Цвет кнопки */
+	color: white; /* Цвет текста */
+	z-index: 1; 
+	transition: 0.3s;
+  }
+  .button a:hover {
+		background: #989898;
+  }
+  .hover-effect-btn:hover .button {
+	opacity: 1;
+  }
+  /*hover card*/
+  .hover_cards{
+	flex-wrap: nowrap;
+	gap: 5%;
+  }
+  .shop_img{
+	height: 100%;
+  }

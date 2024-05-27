@@ -1,0 +1,22 @@
+
+.contact_phon{
+    color: black;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 1%;
+}
+p span{
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 6px;
+}
+.Whatsapp{
+    color: rgb(0, 21, 255);
+    height: 3%;
+    width: 3%;
+}
+.contact_phon_tit{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 2%;
+}

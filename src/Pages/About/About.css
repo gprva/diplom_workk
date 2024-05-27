@@ -1,0 +1,45 @@
+.about_fon_all_txt{
+    border-left: 3px solid rgb(114, 114, 114);
+    border-right: 3px solid rgb(114, 114, 114);
+    padding: 0 5%;
+}
+.about_tit{
+    font-size: 50px;
+    font-weight: 600;
+    color: #008ccf;
+    margin-bottom: 30px;
+    font-family: "Oswald", sans-serif;
+}
+.about_info{
+    font-family: "Poetsen One", sans-serif;
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #242323;
+}
+.about_txt{
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #292929;
+}
+.about_txt_2{
+    border-top: 3px solid #707072;
+    padding: 15px;
+    border-bottom: 3px solid #707072;
+}
+.about_txt b{
+    font-size: 23px;
+    font-weight: 800;
+    color: #010697;
+}
+
+/**/
+.about_img{
+    gap: 10%;
+    flex-wrap: nowrap;
+}
+.press_item{
+  width: 500px;
+}
+
+  /**/
