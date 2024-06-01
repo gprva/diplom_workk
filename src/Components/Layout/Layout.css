@@ -6,3 +6,11 @@ main{
   padding-left: 20px;
 }
 
+@media screen and (max-width: 500px){
+  aside {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  
+}

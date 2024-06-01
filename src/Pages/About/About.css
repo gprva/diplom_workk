@@ -4,23 +4,26 @@
     padding: 0 5%;
 }
 .about_tit{
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 600;
     color: #008ccf;
-    margin-bottom: 30px;
+    margin-bottom: 8px;
     font-family: "Oswald", sans-serif;
+    text-align: center;
 }
 .about_info{
     font-family: "Poetsen One", sans-serif;
     font-size: 22px;
     margin-bottom: 15px;
     color: #242323;
+    text-align: center;
 }
 .about_txt{
     font-size: 20px;
     margin-bottom: 15px;
     font-weight: 600;
     color: #292929;
+    text-align: center;
 }
 .about_txt_2{
     border-top: 3px solid #707072;
@@ -37,9 +40,40 @@
 .about_img{
     gap: 10%;
     flex-wrap: nowrap;
+    gap: 30px;
 }
 .press_item{
   width: 500px;
 }
-
   /**/
+
+@media screen and (max-width: 1100) {
+    .container{
+		max-width: 990px;
+	}
+    .about_img{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 990px) {
+	.container{
+		max-width: 750px;
+	}
+    
+}
+@media screen and (max-width: 780px) {
+	.container{
+		max-width: 510px;
+	}
+}
+@media screen and (max-width: 540px) {
+	.container{
+		max-width: 420px;
+	}
+}
+@media screen and (max-width: 450px) {
+	.container{
+		max-width: 100%;
+	}
+}

@@ -1,5 +1,4 @@
   import './Delivery.css';
-import deliveryImg from '../../img/delivery.png'
 
 
 function Delivery() {

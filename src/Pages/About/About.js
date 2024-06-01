@@ -1,5 +1,6 @@
 import './About.css'
-import aboutFon from "../../img/about-fonn.jpg"
+import aboutFon from "../../img/about_img.jpg"
+
 
 function About() {
   return ( 
@@ -25,7 +26,7 @@ function About() {
 
         <div className="about_fon_all_txt">
           <p className="about_info about_fon_txt">ASICS IN RUSSIA</p>
-          <p className=" about_txt">The ASICS representative office in Russia is actively working for the benefit of the sports community. The brand's stores are located in major cities, offering a wide range of products – from running shoes to stylish sportswear. Professional consultants are always ready to help you choose the perfect option for your needs. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi fugit dolor error dolorem debitis quas rerum officiis quia perspiciatis, quam quod velit excepturi hic, esse incidunt explicabo mollitia recusandae! Vero.</p>
+          <p className=" about_txt about_txt2 ">The ASICS representative office in Russia is actively working for the benefit of the sports community. The brand's stores are located in major cities, offering a wide range of products – from running shoes to stylish sportswear. Professional consultants are always ready to help you choose the perfect option for your needs. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi fugit dolor error dolorem debitis quas rerum officiis quia perspiciatis, quam quod velit excepturi hic, esse incidunt explicabo mollitia recusandae! Vero.</p>
         </div>
 
         <div >

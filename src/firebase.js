@@ -8,12 +8,13 @@ import { getStorage, ref, uploadBytes, getDownloadURL } from "firebase/storage";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyC9qzYXlrXl8ZQjjJfulFQmU-DiWcmfpvI",
-  authDomain: "autht-2.firebaseapp.com",
-  projectId: "autht-2",
-  storageBucket: "autht-2.appspot.com",
-  messagingSenderId: "666722724422",
-  appId: "1:666722724422:web:56fd7d8d2c5947fe713847"
+  apiKey: "AIzaSyCkxM7k8Rl2Redtrp_jxI6ndQLGIDc0ZeM",
+  authDomain: "diplomwork-8a9b5.firebaseapp.com",
+  projectId: "diplomwork-8a9b5",
+  storageBucket: "diplomwork-8a9b5.appspot.com",
+  messagingSenderId: "199074005449",
+  appId: "1:199074005449:web:01ac9a68d9a17a61246818",
+  measurementId: "G-K35FK3LB94"
 };
 
 // Initialize Firebase
